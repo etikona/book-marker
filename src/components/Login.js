@@ -10,7 +10,7 @@ const Login = () => {
         </h1>
         <Button><i className="fa-brands fa-google"></i> Sign in with Google</Button>
     <br />
-        <Button className='mt-1'  variant='light'>Continue without sign in</Button>
+        <Button className='mt-1 mb-100'  variant='light'>Continue without sign in</Button>
         </div>
         
        
