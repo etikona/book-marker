@@ -19,7 +19,7 @@ const Header = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                My Bookmark Manager
+                My Bookmark <br /> Manager
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -28,7 +28,7 @@ const Header = () => {
                   <Nav.Link href="/blog">Blog</Nav.Link>
                   <Nav.Link href="/support">Support</Nav.Link>
                   <Nav.Link href="/plans">Plans</Nav.Link>
-                  <Nav.Link href="/login">Login</Nav.Link>
+                  <Nav.Link href="/login"><i className="fa-solid fa-user"></i>Login</Nav.Link>
                  
                 </Nav>
                
